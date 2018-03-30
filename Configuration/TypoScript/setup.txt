@@ -1,0 +1,48 @@
+plugin.tx_threesixtyslider {
+	view {
+		templateRootPath = {$plugin.tx_threesixtyslider.view.templateRootPath}
+		partialRootPath = {$plugin.tx_threesixtyslider.view.partialRootPath}
+		layoutRootPath = {$plugin.tx_threesixtyslider.view.layoutRootPath}
+	}
+	persistence {
+		storagePid = {$plugin.tx_threesixtyslider.persistence.storagePid}
+	}
+	features {
+		# uncomment the following line to enable the new Property Mapper.
+		# rewrittenPropertyMapper = 1
+	}
+	settings {
+        sliderimagesRootPath = {$plugin.tx_threesixtyslider.settings.sliderimagesRootPath}
+        sliderimagesCount = {$plugin.tx_threesixtyslider.settings.sliderimagesCount}
+        sliderimagesHeight = {$plugin.tx_threesixtyslider.settings.sliderimagesHeight}
+        sliderimagesWidth = {$plugin.tx_threesixtyslider.settings.sliderimagesWidth}
+    }
+}
+
+plugin.tx_threesixtyslider._CSS_DEFAULT_STYLE (
+	textarea.f3-form-error {
+		background-color:#FF9F9F;
+		border: 1px #FF0000 solid;
+	}
+
+	input.f3-form-error {
+		background-color:#FF9F9F;
+		border: 1px #FF0000 solid;
+	}
+
+	.tx-threesixtyslider table {
+		border-collapse:separate;
+		border-spacing:10px;
+	}
+
+	.tx-threesixtyslider table th {
+		font-weight:bold;
+	}
+
+	.tx-threesixtyslider table td {
+		vertical-align:top;
+	}
+)
+
+page.includeCSS.101 = typo3conf/ext/threesixtyslider/Resources/Public/Stylesheets/Syles.css
+#page.includeJS.201 = typo3conf/ext/threesixtyslider/Resources/Public/JavaScript/threesixty.min.js

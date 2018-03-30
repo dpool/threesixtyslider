@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<xliff version="1.0">
+	<file source-language="en" datatype="plaintext" original="messages" date="2014-06-20T18:05:20Z" product-name="threesixtyslider">
+		<header/>
+		<body>
+
+			<trans-unit id="tx_threesixtyslider_domain_model_slideritem">
+				<source>Slideritem</source>
+			</trans-unit>
+			<trans-unit id="tx_threesixtyslider_domain_model_slideritem.title">
+				<source>Title</source>
+			</trans-unit>
+			<trans-unit id="tx_threesixtyslider_domain_model_slideritem.info1">
+				<source>FEATURES</source>
+			</trans-unit>
+			<trans-unit id="tx_threesixtyslider_domain_model_slideritem.info1_title">
+				<source>FEATURES, Title</source>
+			</trans-unit>
+			<trans-unit id="tx_threesixtyslider_domain_model_slideritem.info2">
+				<source>WHERE USED</source>
+			</trans-unit>
+			<trans-unit id="tx_threesixtyslider_domain_model_slideritem.info2_title">
+				<source>WHERE USED, Title</source>
+			</trans-unit>
+			<trans-unit id="tx_threesixtyslider_domain_model_slideritem.info3">
+				<source>DOWNLOAD</source>
+			</trans-unit>
+			<trans-unit id="tx_threesixtyslider_domain_model_slideritem.info3_title">
+				<source>DOWNLOAD, Title</source>
+			</trans-unit>
+			<trans-unit id="tx_threesixtyslider_domain_model_slideritem.images">
+				<source>Images</source>
+			</trans-unit>
+			<trans-unit id="tx_threesixtyslider_domain_model_slideritem.path">
+                <source>Path</source>
+            </trans-unit>
+
+            <trans-unit id="plugin.slider.slideritem">
+                <source>Slider item</source>
+            </trans-unit>
+            <trans-unit id="plugin.slider.switchableControllerActions.0">
+                <source>show slider item</source>
+            </trans-unit>
+		</body>
+	</file>
+</xliff>

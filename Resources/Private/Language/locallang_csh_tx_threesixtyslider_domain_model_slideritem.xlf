@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<xliff version="1.0">
+	<file source-language="en" datatype="plaintext" original="messages" date="2014-06-20T18:05:20Z" product-name="threesixtyslider">
+		<header/>
+		<body>
+
+			<trans-unit id="title.description">
+				<source>title</source>
+			</trans-unit>
+			<trans-unit id="info1.description">
+				<source>info1</source>
+			</trans-unit>
+			<trans-unit id="info1_title.description">
+				<source>info1Title</source>
+			</trans-unit>
+			<trans-unit id="info2.description">
+				<source>info2</source>
+			</trans-unit>
+			<trans-unit id="info2_title.description">
+				<source>info2Title</source>
+			</trans-unit>
+			<trans-unit id="info3.description">
+				<source>info3</source>
+			</trans-unit>
+			<trans-unit id="info3_title.description">
+				<source>info3Title</source>
+			</trans-unit>
+			<trans-unit id="images.description">
+				<source>images</source>
+			</trans-unit>
+		</body>
+	</file>
+</xliff>

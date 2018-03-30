@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<xliff version="1.0">
+	<file source-language="en" datatype="plaintext" original="messages" date="2014-06-20T18:05:20Z" product-name="threesixtyslider">
+		<header/>
+		<body>
+
+			<trans-unit id="tx_threesixtyslider_domain_model_slideritem">
+				<source>Images an Information of a slider item.</source>
+			</trans-unit>
+			<trans-unit id="tx_threesixtyslider_domain_model_slideritem.title">
+				<source>title</source>
+			</trans-unit>
+			<trans-unit id="tx_threesixtyslider_domain_model_slideritem.info1">
+				<source>info1</source>
+			</trans-unit>
+			<trans-unit id="tx_threesixtyslider_domain_model_slideritem.info1_title">
+				<source>info1Title</source>
+			</trans-unit>
+			<trans-unit id="tx_threesixtyslider_domain_model_slideritem.info2">
+				<source>info2</source>
+			</trans-unit>
+			<trans-unit id="tx_threesixtyslider_domain_model_slideritem.info2_title">
+				<source>info2Title</source>
+			</trans-unit>
+			<trans-unit id="tx_threesixtyslider_domain_model_slideritem.info3">
+				<source>info3</source>
+			</trans-unit>
+			<trans-unit id="tx_threesixtyslider_domain_model_slideritem.info3_title">
+				<source>info3Title</source>
+			</trans-unit>
+			<trans-unit id="tx_threesixtyslider_domain_model_slideritem.images">
+				<source>images</source>
+			</trans-unit>
+
+            <trans-unit id="next_image">
+                <source>turn right</source>
+            </trans-unit>
+            <trans-unit id="prev_image">
+                <source>turn left</source>
+            </trans-unit>
+            <trans-unit id="features">
+                <source>Features</source>
+            </trans-unit>
+            <trans-unit id="whereToUse">
+                <source>Where to use</source>
+            </trans-unit>
+            <trans-unit id="download">
+                <source>Download</source>
+            </trans-unit>
+
+		</body>
+	</file>
+</xliff>

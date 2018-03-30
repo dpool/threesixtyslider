@@ -1,0 +1,50 @@
+<f:layout name="Default" />
+
+This Template is responsible for creating a table of domain objects.
+
+If you modify this template, do not forget to change the overwrite settings
+in /Configuration/ExtensionBuilder/settings.yaml:
+  Resources:
+    Private:
+      Templates:
+        List.html: keep
+
+Otherwise your changes will be overwritten the next time you save the extension in the extension builder
+
+<f:section name="main">
+<h1>Listing for Slideritem</h1>
+
+<f:flashMessages />
+
+<table  class="tx_threesixtyslider" >
+	<tr>
+		<th><f:translate key="tx_threesixtyslider_domain_model_slideritem.title" /></th>
+		<th><f:translate key="tx_threesixtyslider_domain_model_slideritem.info1" /></th>
+		<th><f:translate key="tx_threesixtyslider_domain_model_slideritem.info1_title" /></th>
+		<th><f:translate key="tx_threesixtyslider_domain_model_slideritem.info2" /></th>
+		<th><f:translate key="tx_threesixtyslider_domain_model_slideritem.info2_title" /></th>
+		<th><f:translate key="tx_threesixtyslider_domain_model_slideritem.info3" /></th>
+		<th><f:translate key="tx_threesixtyslider_domain_model_slideritem.info3_title" /></th>
+		<th><f:translate key="tx_threesixtyslider_domain_model_slideritem.images" /></th>
+		<th> </th>
+		<th> </th>
+	</tr>
+
+	<f:for each="{slideritems}" as="slideritem">
+		<tr>
+			<td><f:link.action action="show" arguments="{slideritem : slideritem}"> {slideritem.title}</f:link.action></td>
+			<td><f:link.action action="show" arguments="{slideritem : slideritem}"> {slideritem.info1}</f:link.action></td>
+			<td><f:link.action action="show" arguments="{slideritem : slideritem}"> {slideritem.info1Title}</f:link.action></td>
+			<td><f:link.action action="show" arguments="{slideritem : slideritem}"> {slideritem.info2}</f:link.action></td>
+			<td><f:link.action action="show" arguments="{slideritem : slideritem}"> {slideritem.info2Title}</f:link.action></td>
+			<td><f:link.action action="show" arguments="{slideritem : slideritem}"> {slideritem.info3}</f:link.action></td>
+			<td><f:link.action action="show" arguments="{slideritem : slideritem}"> {slideritem.info3Title}</f:link.action></td>
+			<td><f:link.action action="show" arguments="{slideritem : slideritem}"> {slideritem.images}</f:link.action></td>
+			<td><f:link.action action="edit" arguments="{slideritem : slideritem}">Edit</f:link.action></td>
+			<td><f:link.action action="delete" arguments="{slideritem : slideritem}">Delete</f:link.action></td>
+		</tr>
+	</f:for>
+</table>
+
+<f:link.action action="new">New Slideritem</f:link.action>
+</f:section>

@@ -1,0 +1,21 @@
+plugin.tx_threesixtyslider {
+	view {
+		# cat=plugin.tx_threesixtyslider/file; type=string; label=Path to template root (FE)
+		templateRootPath = EXT:threesixtyslider/Resources/Private/Templates/
+		# cat=plugin.tx_threesixtyslider/file; type=string; label=Path to template partials (FE)
+		partialRootPath = EXT:threesixtyslider/Resources/Private/Partials/
+		# cat=plugin.tx_threesixtyslider/file; type=string; label=Path to template layouts (FE)
+		layoutRootPath = EXT:threesixtyslider/Resources/Private/Layouts/
+	}
+	persistence {
+		# cat=plugin.tx_threesixtyslider//a; type=string; label=Default storage PID
+		storagePid =
+	}
+	settings {
+	    sliderimagesRootPath =
+	    sliderimagesCount = 24
+	    sliderimagesHeight = 338
+	    sliderimagesWidth = 600
+
+	}
+}

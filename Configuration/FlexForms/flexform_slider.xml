@@ -1,0 +1,46 @@
+<T3DataStructure>
+	<sheets>
+		<sDEF>
+			<ROOT>
+				<TCEforms>
+					<sheetTitle>Function</sheetTitle>
+				</TCEforms>
+				<type>array</type>
+				<el>
+					<switchableControllerActions>
+						<TCEforms>
+							<label>Select function</label>
+                            <onChange>reload</onChange>
+							<config>
+								<type>select</type>
+								<items>
+									<numIndex index="0">
+										<numIndex index="0">show slider item</numIndex>
+										<numIndex index="1">Slideritem->show</numIndex>
+									</numIndex>
+								</items>
+							</config>
+						</TCEforms>
+					</switchableControllerActions>
+                    <settings.ff.slider.slideritem>
+                        <TCEforms>
+                            <exclude>1</exclude>
+                            <label>LLL:EXT:threesixtyslider/Resources/Private/Language/locallang_db.xlf:plugin.slider.slideritem</label>
+                            <displayCond>FIELD:switchableControllerActions:=:Slideritem->show</displayCond>
+                            <config>
+                                <type>group</type>
+                                <internal_type>db</internal_type>
+                                <allowed>tx_threesixtyslider_domain_model_slideritem</allowed>
+                                <foreign_table>tx_threesixtyslider_domain_model_slideritem</foreign_table>
+                                <foreign_table_where> AND sys_language_uid=0</foreign_table_where>
+                                <size>10</size>
+                                <maxitems>1</maxitems>
+                                <minitems>1</minitems>
+                            </config>
+                        </TCEforms>
+                    </settings.ff.slider.slideritem>
+				</el>
+			</ROOT>
+		</sDEF>
+	</sheets>
+</T3DataStructure>
