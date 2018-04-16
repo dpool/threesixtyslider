@@ -15,75 +15,33 @@ Otherwise your changes will be overwritten the next time you save the extension 
     <f:flashMessages />
 
     <div id="container" class="container-fluid" >
-        <div class="row">
-            <div class="col-md-6">
-            	<div class="sixty-wrapper clearfix">
-        	        <div class="buttons sixty-btn-group">
-        	           <f:comment>
-        	                <f:image src="EXT:threesixtyslider/Resources/Public/Images/prev.png" alt="<f:translate key='prev_image'/>" class="custom_previous"></f:image>
-        	                <f:image src="EXT:threesixtyslider/Resources/Public/Images/next.png" alt="<f:translate key='next_image'/>" class="custom_next"></f:image>
-        	            </f:comment>
-        	            <button type="button" class="sixty-left sixty-btn custom_previous"></button>
-        	            <button type="button" class="sixty-right sixty-btn custom_next"></button>
-        	        </div>
-        	        <div class="threesixty slideritem">
-        	        	<div class="spinner">
-        	                <span>0%</span>
-        	            </div>
-        	            <ol class="threesixty_images"></ol>
-        	        </div>
-                </div>
+        <div class="sixty-wrapper clearfix">
+            <div class="buttons sixty-btn-group">
+               <f:comment>
+                    <f:image src="EXT:threesixtyslider/Resources/Public/Images/prev.png" alt="<f:translate key='prev_image'/>" class="custom_previous"></f:image>
+                    <f:image src="EXT:threesixtyslider/Resources/Public/Images/next.png" alt="<f:translate key='next_image'/>" class="custom_next"></f:image>
+                </f:comment>
+                <button type="button" class="sixty-left sixty-btn custom_previous"></button>
+                <button type="button" class="sixty-right sixty-btn custom_next"></button>
             </div>
-            <div class="col-md-6">
-                <div class="tabs">
-                    <h1 class="slideritem-title">{slideritem.title}</h1>
-                    <div class="side-nav">
-                        <ul class="clearfix">
-                            <f:if condition="{slideritem.info2Title}">
-                                <f:then>
-                                    <li data-infoID="infotab_2" class="active">{slideritem.info2Title}</li>
-                                </f:then>
-                                <f:else>
-                                    <li data-infoID="infotab_2" class="active"><f:translate key='whereToUse'/></li>
-                                </f:else>
-                            </f:if>
-                            <f:if condition="{slideritem.info1Title}">
-                                <f:then>
-                                    <li data-infoID="infotab_1">{slideritem.info1Title}</li>
-                                </f:then>
-                                <f:else>
-                                    <li data-infoID="infotab_1"><f:translate key='features'/></li>
-                                </f:else>
-                            </f:if>
-                            <f:if condition="{slideritem.info3Title}">
-                                <f:then>
-                                    <li data-infoID="infotab_3">{slideritem.info3Title}</li>
-                                </f:then>
-                                <f:else>
-                                    <li data-infoID="infotab_3"><f:translate key='download'/></li>
-                                </f:else>
-                            </f:if>
-                        </ul>
-                    </div>
-                    <span class="clearfix"></span>
-                    <div class="side-info">
-                        <div class="info" id="infotab_2">
-                            <f:format.html>
-                                {slideritem.info2}
-                            </f:format.html>
-                        </div>
-                        <div class="info" id="infotab_1" style="display: none">
-                            <f:format.html>
-                                {slideritem.info1}
-                            </f:format.html>
-                        </div>
-
-                        <div class="info" id="infotab_3" style="display:none">
-                            <f:format.html>
-                                {slideritem.info3}
-                            </f:format.html>
-                        </div>
-                    </div>
+            <div class="threesixty slideritem">
+                <div class="spinner">
+                    <span>0%</span>
+                </div>
+                <ol class="threesixty_images"></ol>
+            </div>
+        </div>
+    </div>
+    <div class="section-block light-beige-section">
+        <div class="container-fluid" >
+            <div class="row">
+                <div class="col-md-6">
+                    <h3><f:translate key='whereToUse'/></h3>
+                   <div class="lined-style-list"> <f:format.html>{slideritem.info2}</f:format.html></div>
+                </div>
+                <div class="col-md-6">
+                    <h3><f:translate key='features'/></h3>
+                    <div class="lined-style-list"><f:format.html>{slideritem.info1}</f:format.html></div>
                 </div>
             </div>
         </div>
