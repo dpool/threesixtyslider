@@ -1,8 +1,8 @@
 plugin.tx_threesixtyslider {
 	view {
-		templateRootPath = {$plugin.tx_threesixtyslider.view.templateRootPath}
-		partialRootPath = {$plugin.tx_threesixtyslider.view.partialRootPath}
-		layoutRootPath = {$plugin.tx_threesixtyslider.view.layoutRootPath}
+		templateRootPaths.10 = {$plugin.tx_threesixtyslider.view.templateRootPath}
+		partialRootPaths.10 = {$plugin.tx_threesixtyslider.view.partialRootPath}
+		layoutRootPaths.10 = {$plugin.tx_threesixtyslider.view.layoutRootPath}
 	}
 	persistence {
 		storagePid = {$plugin.tx_threesixtyslider.persistence.storagePid}
