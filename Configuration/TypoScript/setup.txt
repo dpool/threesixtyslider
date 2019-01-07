@@ -44,5 +44,5 @@ plugin.tx_threesixtyslider._CSS_DEFAULT_STYLE (
 	}
 )
 
-page.includeCSS.101 = typo3conf/ext/threesixtyslider/Resources/Public/Stylesheets/Syles.css
+page.includeCSS.101 = typo3conf/ext/threesixtyslider/Resources/Public/Stylesheets/Styles.css
 #page.includeJS.201 = typo3conf/ext/threesixtyslider/Resources/Public/JavaScript/threesixty.min.js
