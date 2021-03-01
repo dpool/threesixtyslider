@@ -12,7 +12,7 @@ plugin.tx_threesixtyslider {
 		storagePid =
 	}
 	settings {
-	    sliderimagesRootPath =
+	    sliderimagesRootPath = fileadmin/threesixty/
 	    sliderimagesCount = 24
 	    sliderimagesHeight = 338
 	    sliderimagesWidth = 600

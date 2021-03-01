@@ -39,7 +39,7 @@ class SlideritemController extends \TYPO3\CMS\Extbase\Mvc\Controller\ActionContr
 	 * slideritemRepository
 	 *
 	 * @var \Dpool\Threesixtyslider\Domain\Repository\SlideritemRepository
-	 * @inject
+	 * @TYPO3\CMS\Extbase\Annotation\Inject
 	 */
 	protected $slideritemRepository;
 
